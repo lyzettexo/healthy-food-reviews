@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Healthy Food Reviews</title>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <main>
@@ -12,10 +14,13 @@
         id="product-search"
         placeholder="Search for a product..."
       />
+      <button id="search-button" type="button">Search</button>
+
+      <h1 id="selected-product">Search for a product to see its reviews</h1>
+      <p id="selected-product-brand"></p>
 
       <div id="product-search-results"></div>
 
-      <h1>Primal Kitchen Organic Unsweetened Ketchup</h1>
       <h2>Community Rating</h2>
       <p id="average-rating"></p>
       <p id="review-count"></p>
@@ -27,13 +32,6 @@
       <div id="reviews-list"></div>
 
       <button type="button">Write Review</button>
-
-      <a
-        href="https://www.amazon.com/Primal-Kitchen-Organic-Unsweetened-Ketchup/dp/B00K5N1X6A"
-        target="_blank"
-        >Primal Kitchen</a
-      >
-      <img src="ketchup.jpg" alt="Ketchup" width="300" height="200" />
 
       <p>Write a Review</p>
 
